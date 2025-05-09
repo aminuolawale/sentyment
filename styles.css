@@ -1,0 +1,60 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .controls input {
+    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .chart-container {
+    margin-top: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+  }
+  
+  th, td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #34495e;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .sort-indicator {
+    font-size: 0.8em;
+    margin-left: 5px;
+  }
+  
+  th.sort-asc .sort-indicator { content: "▲"; }
+  th.sort-desc .sort-indicator { content: "▼"; }
+  
