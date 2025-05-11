@@ -1,0 +1,80 @@
+{
+    "Nyesom Wike": [
+        [
+            {
+                "label": "NEGATIVE",
+                "score": 0.9979268312454224
+            }
+        ]
+    ],
+    "Udom Emmanuel": [
+        [
+            {
+                "label": "NEGATIVE",
+                "score": 0.9958239793777466
+            }
+        ]
+    ],
+    "Kashim Shettima": [
+        [
+            {
+                "label": "POSITIVE",
+                "score": 0.6692698001861572
+            }
+        ],
+        [
+            {
+                "label": "NEGATIVE",
+                "score": 0.9931454658508301
+            }
+        ]
+    ],
+    "Kayode Fayemi": [
+        [
+            {
+                "label": "NEGATIVE",
+                "score": 0.9720292091369629
+            }
+        ],
+        [
+            {
+                "label": "NEGATIVE",
+                "score": 0.9720292091369629
+            }
+        ],
+        [
+            {
+                "label": "NEGATIVE",
+                "score": 0.9720292091369629
+            }
+        ]
+    ],
+    "Mohammed Abubakar": [
+        [
+            {
+                "label": "NEGATIVE",
+                "score": 0.9866105914115906
+            }
+        ]
+    ],
+    "Okezie Ikpeazu": [
+        [
+            {
+                "label": "NEGATIVE",
+                "score": 0.9979808926582336
+            }
+        ],
+        [
+            {
+                "label": "POSITIVE",
+                "score": 0.8822389841079712
+            }
+        ],
+        [
+            {
+                "label": "POSITIVE",
+                "score": 0.8822389841079712
+            }
+        ]
+    ]
+}

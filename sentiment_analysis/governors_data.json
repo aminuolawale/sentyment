@@ -1,0 +1,79 @@
+[
+  {
+    "governor": "Nyesom Wike",
+    "state": "Rivers",
+    "years_in_office": "2015-2023",
+    "manifesto_link": "https://www.slideshare.net/slideshow/a-newriversstatevision2015/44201892",
+    "key_promises": "Rehabilitate water supply, construct roads, improve education and healthcare, revive Songhai farm, youth empowerment, enhance security."
+  },
+  {
+    "governor": "Udom Emmanuel",
+    "state": "Akwa Ibom",
+    "years_in_office": "2015-2023",
+    "manifesto_link": "https://www.vanguardngr.com/2019/01/2019-elections-manifesto-gov-emmanuel-presents-8-point-agenda",
+    "key_promises": "Industrialization, agricultural expansion, education, healthcare, infrastructure, security, SME support, rural development."
+  },
+  {
+    "governor": "Willie Obiano",
+    "state": "Anambra",
+    "years_in_office": "2014-2022",
+    "manifesto_link": "https://www.nairaland.com/1444771/chief-dr-willie-obiano-manifesto",
+    "key_promises": "Agriculture, industrialization, trade, oil & gas, security, social infrastructure, environment, good governance."
+  },
+  {
+    "governor": "Kashim Shettima",
+    "state": "Borno",
+    "years_in_office": "2011-2019",
+    "manifesto_link": "https://saferafricagroup.wordpress.com/2011/05/14/boko-haram-governor-elect-shettima-reaffirms-determination-to-make-peace/",
+    "key_promises": "Security, education, healthcare, infrastructure, agriculture, youth empowerment."
+  },
+  {
+    "governor": "Ben Ayade",
+    "state": "Cross River",
+    "years_in_office": "2015-2023",
+    "manifesto_link": "https://www.premiumtimesng.com/news/headlines/607847-scorecard-how-ayade-met-left-cross-river-after-eight-years-as-governor.html",
+    "key_promises": "Industrialization, infrastructure (superhighway and seaport), healthcare, education, agriculture."
+  },
+  {
+    "governor": "Kayode Fayemi",
+    "state": "Ekiti",
+    "years_in_office": "2018-2022",
+    "manifesto_link": "https://www.ekitistate.gov.ng/archives/10918",
+    "key_promises": "Good governance, infrastructure, education, healthcare, agriculture, youth empowerment."
+  },
+  {
+    "governor": "Ifeanyi Okowa",
+    "state": "Delta",
+    "years_in_office": "2015-2023",
+    "manifesto_link": "https://www.iaokowa.org/development-strategy/",
+    "key_promises": "Wealth creation, healthcare, education, infrastructure, agriculture."
+  },
+  {
+    "governor": "Seriake Dickson",
+    "state": "Bayelsa",
+    "years_in_office": "2012-2020",
+    "manifesto_link": "https://www.vanguardngr.com/2011/12/bayelsa-seriake-dickson-and-restoration-2012-agenda/",
+    "key_promises": "Restoration Agenda, free education, healthcare, infrastructure, transparency."
+  },
+  {
+    "governor": "Samuel Ortom",
+    "state": "Benue",
+    "years_in_office": "2015-2023",
+    "manifesto_link": "https://lawyersalert.wordpress.com/2015/05/31/inaugural-speech-of-his-excellency-chief-dr-samuel-ioraer-ortom-governor-of-benue-state/",
+    "key_promises": "Agriculture, security, education, healthcare, youth empowerment."
+  },
+  {
+    "governor": "Mohammed Abubakar",
+    "state": "Bauchi",
+    "years_in_office": "2015-2019",
+    "manifesto_link": "https://dailytrust.com/ma-abubakar-a-victory-foretold/",
+    "key_promises": "Good governance, infrastructure, education, healthcare, agriculture."
+  },
+  {
+    "governor": "Okezie Ikpeazu",
+    "state": "Abia",
+    "years_in_office": "2015-2023",
+    "manifesto_link": "https://www.thenigerianvoice.com/news/175540/profilemanifesto-of-dr-okezie-ikpeazu-making-abia-the-pr.html",
+    "key_promises": "Economic development, infrastructure, education, healthcare, youth empowerment."
+  }
+]
