@@ -75,7 +75,6 @@ class SearchApiSearchProvider:
     
     
     def search_articles(self, count: int = 2):
-        print(SearchApiSearchProvider.API_KEY, '>>>>>>>')
         try:
             params = {
                 "q": self.query,

@@ -9,6 +9,7 @@ from transformers import pipeline
 import os
 from search import SearchProvider
 from collections import Counter
+from typing import List
 
 
 class SentimentHelper:
@@ -75,7 +76,7 @@ class SentimentHelper:
         """
         Collects articles for each governor based on their name, state, and years in office."""
         cached_governors_articles = self._get_cached_governors_articles()
-        if cached_governors_articles != None:
+        if cached_governors_articles is not None:
             print("Governor articles already collected. Skipping...")
             return cached_governors_articles
         print("Collecting articles for each governor...")
@@ -86,9 +87,11 @@ class SentimentHelper:
             state = governor["state"]
             years = governor["years_in_office"].replace(
                 "–present", f"–{datetime.now().year}")
-            query = f"{name} {state} governor {years}  {self.get_news_search_filter()}"
+            campaign_keywords = governor.get("campaign_keywords", "")
+            search_query = self._build_search_query_for_governor(
+                governor_name=name, state=state, years=years, campaign_keywords=campaign_keywords)
             print(f"Searching for articles about {name}...")
-            articles = SearchProvider(query).search_articles()
+            articles = SearchProvider(search_query).search_articles()
             print(f"Found {len(articles)} articles for {name}.")
             all_articles[name] = articles
         # Save the results to a JSON file
@@ -184,6 +187,12 @@ class SentimentHelper:
         news_search_filter = " OR ".join(
             [f"site:{channel}" for channel in news_channels])
         return news_search_filter
+    
+    def _build_search_query_for_governor(self, governor_name: str, state: str, years: str, campaign_keywords: List[str]) -> str:
+        """
+        Builds a search query for a governor based on their name, state, and years in office."""
+        campaign_keywords = " OR ".join([word.strip() for word in campaign_keywords.split(",")])
+        return f"{governor_name} {state} governor {years} {campaign_keywords}  {self.get_news_search_filter()}"
 
     def _analyze_sentiment(self, text: str) -> Optional[dict]:
         try:

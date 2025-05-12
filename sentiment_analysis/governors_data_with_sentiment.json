@@ -29,7 +29,7 @@
         "years_in_office": "2011-2019",
         "manifesto_link": "https://saferafricagroup.wordpress.com/2011/05/14/boko-haram-governor-elect-shettima-reaffirms-determination-to-make-peace/",
         "key_promises": "Security, education, healthcare, infrastructure, agriculture, youth empowerment.",
-        "sentiment": "NEUTRAL"
+        "sentiment": "POSITIVE"
     },
     {
         "governor": "Ben Ayade",
@@ -69,7 +69,7 @@
         "years_in_office": "2015-2023",
         "manifesto_link": "https://lawyersalert.wordpress.com/2015/05/31/inaugural-speech-of-his-excellency-chief-dr-samuel-ioraer-ortom-governor-of-benue-state/",
         "key_promises": "Agriculture, security, education, healthcare, youth empowerment.",
-        "sentiment": "NEUTRAL"
+        "sentiment": "NEGATIVE"
     },
     {
         "governor": "Mohammed Abubakar",
