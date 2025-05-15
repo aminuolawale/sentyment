@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 class SearchProvider:
     def __init__(self, query: str):
         self.query = query
-        self.search_provider =   SearchApiSearchProvider(query) if os.getenv("SEARCH_PROVIDER") == "searchapi" else BraveSearchProvider(query)
+        self.search_provider =   SearchApiSearchProvider(query)
     
     def search_articles(self, count: int = 5):
         return self.search_provider.search_articles(count) if self.search_provider else []
